@@ -81,7 +81,7 @@ class AdminTodoController extends Controller
             $data_todo->id_status=$id_status;
         }
         $data_todo->save();
-        return redirect('todo/showupdate/'.$id);
+        return redirect('/');
         
         
     }
